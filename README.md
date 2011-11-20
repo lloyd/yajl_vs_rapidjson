@@ -4,7 +4,7 @@ of JSON.
 compiling rapidjson:
 
     $ cd rapidjson/examples/pretty
-    $ g++ -O3 -o ../../../pretty pretty.cpp
+    $ g++ -O3 -o pretty -I rapidjson/include rapidjson/example/pretty/pretty.cpp
 
 just get json_reformat from the yajl package from your package management
 system.
