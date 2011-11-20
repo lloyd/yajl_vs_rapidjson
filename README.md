@@ -48,3 +48,5 @@ math: `(/ (+ (- (/ 113 99.0) 1) (- (/ 168 113.0) 1)) 2.0)`
 
 Oh. and `cat` is a couple orders of magnitude faster than either.
 
+UPDATE: on 64 bit arch linux, yajl is ~80% faster using the same methodology.
+
